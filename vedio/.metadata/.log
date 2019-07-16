@@ -1,0 +1,78 @@
+!SESSION 2019-01-10 16:07:00.526 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication D:\万秋琳\1.9万秋琳\vedio\相对链接.html
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication D:\万秋琳\1.9万秋琳\vedio\相对链接.html
+
+!ENTRY org.eclipse.ui 2 0 2019-01-10 16:07:01.146
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-01-10 16:07:01.146
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY com.aptana.rcp 4 0 2019-01-10 16:07:01.311
+!MESSAGE ********HBuilder正常启动：preStartup********
+
+!ENTRY com.aptana.scripting 4 0 2019-01-10 16:07:02.583
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2019-01-10 16:07:02.585
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.commandline.launcher 4 0 2019-01-10 16:07:03.386
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:135)
+
+!ENTRY com.aptana.rcp 4 0 2019-01-10 16:07:03.783
+!MESSAGE ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2019-01-10 16:07:03.784
+!MESSAGE check mode
+
+!ENTRY com.aptana.rcp 4 0 2019-01-10 16:07:03.867
+!MESSAGE workspace : file:\D:\万秋琳\1.9万秋琳\vedio
+
+!ENTRY com.aptana.rcp 4 0 2019-01-10 16:07:04.605
+!MESSAGE ********HBuilder正常启动：postStartup********
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-01-10 16:07:04.672
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 9.0.2.201803061935
+
+!ENTRY com.pandora.tools.android 4 0 2019-01-10 16:07:05.534
+!MESSAGE (Build null) [ERROR]  ADB PID:::7348
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2019-01-10 16:07:05.694
+!MESSAGE E:\HBuilder\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY com.pandora.tools.android 4 0 2019-01-10 16:07:06.058
+!MESSAGE (Build null) [ERROR]  ===Caption  ExecutablePath
+
+!ENTRY com.pandora.tools.android 4 0 2019-01-10 16:07:06.059
+!MESSAGE (Build null) [ERROR]  ===adb.exe  E:\HBuilder\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-01-10 16:07:06.060
+!MESSAGE (Build null) [ERROR]  exe===adb.exe   path===e:\hbuilder\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2019-01-10 16:07:06.064
+!MESSAGE (Build null) [ERROR]  ADB Path===e:\hbuilder\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2019-01-10 16:07:06.396
+!MESSAGE E:\HBuilder\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.aptana.scripting 4 0 2019-01-10 16:07:06.443
+!MESSAGE (Build null) [ERROR]  loadBundles异常
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-01-10 16:07:06.811
+!MESSAGE (Build null) [ERROR]  最新版本: 9.1.29.201811231920
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2019-01-10 16:07:06.829
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 9.1.29.201811231920
